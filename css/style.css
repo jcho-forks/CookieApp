@@ -2,3 +2,86 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+/* ============================================== */
+/* Style Guide */
+/* ============================================== */
+
+:root {
+  --primary-background: #6C6E8C;
+  --secondary-background: #F6F6F9;
+  --primary-font: #0FF2B2;
+  --secondary-font: #05F283;
+  --paragraph-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============================================== */
+/* Header Section */
+/* ============================================== */
+
+/* ============================================== */
+/* Heroes Section */
+/* ============================================== */
+
+/* ============================================== */
+/* Cookie Section */
+/* ============================================== */
+
+/* Container */
+
+#cookie {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card */
+
+.card {
+  background-color: var(--primary-background);
+  width: 30%;
+  height: 600px;
+  margin: 1.66%;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .content {
+  padding: 10px 20px;
+}
+
+/* Font */
+
+.content h4 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0;
+  color: var(--primary-font);
+}
+
+.content p {
+  font-family: var(--paragraph-family);
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* ============================================== */
+/* About Section */
+/* ============================================== */
+
+/* ============================================== */
+/* Contributors Section */
+/* ============================================== */
+
+/* ============================================== */
+/* Join Us Section */
+/* ============================================== */

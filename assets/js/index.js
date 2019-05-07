@@ -23,3 +23,23 @@ for (let i = 0; i < cookies.length; i++) {
   // Append div to .slider-container
   container.append(div);
 }
+
+// More Cookies feature
+let cards = document.querySelectorAll(".card");
+
+let showMore = document.querySelector(".show-more");
+let showLess = document.querySelector(".show-less");
+
+showMore.addEventListener("click", () => {
+  console.log("Show More!");
+});
+
+showLess.addEventListener("click", () => {
+  console.log("Show Less!");
+});
+
+for (let i = 0; i < cards.length; i++) {
+  if (i > 5) {
+    cards[i].classList.add("display");
+  }
+}

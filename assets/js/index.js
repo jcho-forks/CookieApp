@@ -23,3 +23,49 @@ for (let i = 0; i < cookies.length; i++) {
   // Append div to .slider-container
   container.append(div);
 }
+
+// More Cookies feature
+let cards = document.querySelectorAll(".card");
+let showMore = document.querySelector(".show-more");
+let showLess = document.querySelector(".show-less");
+
+// Default number of cookies shown
+let showNumber = 6;
+
+// Show default number of cookies
+showCookies(cards);
+
+// Show More button event listener
+showMore.addEventListener("click", () => {
+  // Validation for maximum number of cookies to be shown
+  if (showNumber < cards.length) {
+    showNumber += 6;
+    showCookies(cards);
+  } else {
+    showNumber = cards.length;
+  }
+});
+
+showLess.addEventListener("click", () => {
+  // Validation for minimum number of cookies to be shown
+  if (showNumber > 6) {
+    showNumber -= 6;
+    hideCookies(cards);
+  } else {
+    showNumber = 6;
+  }
+});
+
+// Display "showNumber" number of cookies
+function showCookies(cards) {
+  for (let i = 0; i < showNumber; i++) {
+    cards[i].classList.add("display");
+  }
+};
+
+// Hide "showNumber" number of cookies
+function hideCookies(cards) {
+  for (let i = showNumber; i < cards.length; i++) {
+    cards[i].classList.remove("display");
+  }
+};

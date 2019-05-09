@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -24,7 +25,8 @@ hr {
   margin: 1.5em auto;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-size: 2em;
   font-style: italic;
   font-weight: 700;
@@ -39,13 +41,81 @@ h3 {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /* ============================================== */
 /* Header Section */
 /* ============================================== */
 
+.nav-container {
+  margin: 0%;
+  padding: 0%;
+  background-color: var(--primary-background);
+  height: 80px;
+}
+
+nav .ico {
+  display: block;
+  float: left;
+  padding: 7px 200px 0 350px;
+}
+
+.ico img {
+  height: 60px;
+}
+
+.ico,
+.nav-ul {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav .nav-ul {
+  padding-top: 30px;
+}
+
+nav .item a {
+  padding: 40px 30px 20px 30px;
+  color: var(--secondary-background);
+}
+
+nav .item:hover {
+  height: 200%;
+  transform: skew(10deg);
+  background: #05F283;
+
+}
+
 /* ============================================== */
 /* Heroes Section */
 /* ============================================== */
+
+#hero {
+  height: 92vh;
+  background: linear-gradient(to bottom, rgba(62, 60, 88, 0.247) 0, rgba(62, 60, 88, 0.247) 100%), url("https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg");
+  margin: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.cookie-land {
+  margin: 0%;
+  padding: 0%;
+  font-style: italic;
+  font-size: 110px;
+  text-align: center;
+  padding-top: 280px;
+  text-shadow: -2px 4px #F6F6F9;
+}
 
 /* ============================================== */
 /* Cookie Section */
@@ -153,12 +223,12 @@ h3 {
 /* Contributors Section */
 /* ============================================== */
 #contributors-container {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-width: 90%;
-margin: auto;
-justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
 }
 
 .contributors {

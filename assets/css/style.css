@@ -15,6 +15,7 @@ body {
   --primary-font: #0FF2B2;
   --secondary-font: #05F283;
   --paragraph-family: Arial, Helvetica, sans-serif;
+  --secondary-family: "Times New Roman", Times, serif
 }
 
 hr {
@@ -154,8 +155,6 @@ nav .item:hover {
   padding: 10px 20px;
 }
 
-/* Font */
-
 .content p {
   font-family: var(--paragraph-family);
   line-height: 1.5;
@@ -172,35 +171,39 @@ nav .item:hover {
 
 .show-more {
   margin-right: 10px;
-  padding: 20px 40px;
+  padding: 20px 60px;
   border: none;
   outline: none;
-  text-transform: uppercase;
   background-color: var(--primary-font);
-  border: 5px solid transparent;
+  border: 3px solid transparent;
   color: #fff;
-  font-size: 1em;
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
   font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
 }
 
 .show-more:hover {
   cursor: pointer;
-  border: 5px solid var(--primary-font);
+  border: 3px solid var(--primary-font);
   background-color: white;
   color: var(--primary-background);
 }
 
 .show-less {
   margin-left: 10px;
-  padding: 20px 40px;
+  padding: 20px 60px;
   border: none;
   outline: none;
-  text-transform: uppercase;
   background-color: white;
-  border: 5px solid var(--primary-font);
+  border: 3px solid var(--primary-font);
   color: var(--primary-background);
-  font-size: 1em;
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
   font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
 }
 
 .show-less:hover {
@@ -222,6 +225,7 @@ nav .item:hover {
 /* ============================================== */
 /* Contributors Section */
 /* ============================================== */
+
 #contributors-container {
   display: flex;
   flex-direction: row;
@@ -256,3 +260,86 @@ nav .item:hover {
 /* ============================================== */
 /* Join Us Section */
 /* ============================================== */
+
+/* Container */
+
+#join-us {
+  background-color: var(--primary-background);
+  height: calc(100vh - 80px);
+  text-align: center;
+  position: relative;
+}
+
+.join-container {
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Font */
+
+.join-container h2 {
+  font-size: 4em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.join-container p {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* Buttons */
+
+.join-buttons {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.go {
+  margin-right: 10px;
+  padding: 20px 70px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-font);
+  border: 3px solid transparent;
+  color: #fff;
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.go:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--primary-background);
+}
+
+.more-info {
+  margin-left: 10px;
+  padding: 20px 70px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border: 3px solid transparent;
+  color: var(--primary-background);
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.more-info:hover {
+  cursor: pointer;
+  background-color: var(--primary-font);
+  color: #fff;
+}

@@ -222,6 +222,40 @@ nav .item:hover {
 /* About Section */
 /* ============================================== */
 
+/* Container */
+
+#about {
+  height: 100vh;
+  background-color: var(--secondary-background);
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+/* Font */
+
+.about-container h2 {
+  font-size: 4em;
+  font-style: italic;
+  text-transform: uppercase;
+  color: var(--primary-font);
+  padding-bottom: 100px;
+}
+
+.about-container p {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.quote-caption {
+  padding-top: 50px;
+  color: var(--primary-background);
+  font-style: italic;
+}
+
 /* ============================================== */
 /* Contributors Section */
 /* ============================================== */

@@ -1,5 +1,7 @@
 // Import cookies data from assets/data/cookies.js
-import { cookies } from "../data/cookies.js";
+import {
+  cookies
+} from "../data/cookies.js";
 
 // Select div which to append cookies data
 let container = document.querySelector(".slider-container");

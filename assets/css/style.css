@@ -78,19 +78,23 @@ nav .ico {
   padding: 0%;
 }
 
-nav .nav-ul {
-  padding-top: 30px;
+nav .nav-ul li {
+  cursor: pointer;
+  line-height: 70px;
+  transition: all 0.5s ease-out;
 }
 
+nav .nav-ul a:hover {
+  color: rgb(0, 0, 0);
+}
 nav .item a {
-  padding: 40px 30px 20px 30px;
+  margin: 40px 30px 20px 30px;
   color: var(--secondary-background);
 }
 
 nav .item:hover {
-  height: 200%;
-  transform: skew(10deg);
-  background: #05F283;
+  transform: skew(-10deg);
+  background: var(--secondary-font)
 
 }
 

@@ -13,6 +13,7 @@
 - creates a PDF/Wunderlist/Evernot with shopping list and recipes
 
 ## User
+- users can login
 - users can upload pictures of cookies
 - users can add recipes & fork cookies
 - user can save favorites

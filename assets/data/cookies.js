@@ -1,6 +1,6 @@
 export const cookies = [
   {
-    name: "Cookie 1",
+    name: "Cookie Blue",
     image: "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -15,7 +15,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 2",
+    name: "Cookie Red",
     image: "https://images.unsplash.com/photo-1530751127259-074b0cdc0469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -30,7 +30,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 3",
+    name: "Cookie Yellow",
     image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -45,7 +45,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 4",
+    name: "Cookie Green",
     image: "https://images.unsplash.com/photo-1491374812364-00028bbe7d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident vero voluptatum consequatur fugit saepe itaque autem cupiditate, est mollitia error unde asperiores praesentium eveniet tempore ipsum culpa repudiandae. Eaque a aperiam cupiditate ratione id praesentium vitae, quam quae.",
     ingredients: [
@@ -60,7 +60,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 5",
+    name: "Cookie Black",
     image: "https://images.unsplash.com/photo-1515265705-cbcc6e6ba264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -75,7 +75,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 6",
+    name: "Cookie Grey",
     image: "https://images.unsplash.com/photo-1513806562344-c75007ad303f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti fuga quaerat perspiciatis, enim dolorum aperiam aut? Quas obcaecati facere, quasi nostrum iure atque ipsam, debitis ut aspernatur pariatur, dolorem natus odit minima! Voluptatem fuga esse ab ullam cumque debitis reprehenderit quidem non nihil accusamus?",
     ingredients: [
@@ -90,7 +90,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 7",
+    name: "Cookie Orange",
     image: "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -105,7 +105,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 8",
+    name: "Cookie White",
     image: "https://images.unsplash.com/photo-1530751127259-074b0cdc0469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -120,7 +120,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 9",
+    name: "Cookie Purple",
     image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -135,7 +135,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 10",
+    name: "Cookie Lime",
     image: "https://images.unsplash.com/photo-1491374812364-00028bbe7d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident vero voluptatum consequatur fugit saepe itaque autem cupiditate, est mollitia error unde asperiores praesentium eveniet tempore ipsum culpa repudiandae. Eaque a aperiam cupiditate ratione id praesentium vitae, quam quae.",
     ingredients: [
@@ -150,7 +150,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 11",
+    name: "Cookie Brown",
     image: "https://images.unsplash.com/photo-1515265705-cbcc6e6ba264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -165,7 +165,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 12",
+    name: "Cookie Pink",
     image: "https://images.unsplash.com/photo-1513806562344-c75007ad303f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti fuga quaerat perspiciatis, enim dolorum aperiam aut? Quas obcaecati facere, quasi nostrum iure atque ipsam, debitis ut aspernatur pariatur, dolorem natus odit minima! Voluptatem fuga esse ab ullam cumque debitis reprehenderit quidem non nihil accusamus?",
     ingredients: [
@@ -180,7 +180,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 13",
+    name: "Cookie Gold",
     image: "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -195,7 +195,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 14",
+    name: "Cookie Silver",
     image: "https://images.unsplash.com/photo-1530751127259-074b0cdc0469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
     ingredients: [
@@ -210,7 +210,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 15",
+    name: "Cookie Violet",
     image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -225,7 +225,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 16",
+    name: "Cookie Teal",
     image: "https://images.unsplash.com/photo-1491374812364-00028bbe7d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident vero voluptatum consequatur fugit saepe itaque autem cupiditate, est mollitia error unde asperiores praesentium eveniet tempore ipsum culpa repudiandae. Eaque a aperiam cupiditate ratione id praesentium vitae, quam quae.",
     ingredients: [
@@ -240,7 +240,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 17",
+    name: "Cookie Aqua",
     image: "https://images.unsplash.com/photo-1515265705-cbcc6e6ba264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
     ingredients: [
@@ -255,7 +255,7 @@ export const cookies = [
     ]
   },
   {
-    name: "Cookie 18",
+    name: "Cookie Space",
     image: "https://images.unsplash.com/photo-1513806562344-c75007ad303f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti fuga quaerat perspiciatis, enim dolorum aperiam aut? Quas obcaecati facere, quasi nostrum iure atque ipsam, debitis ut aspernatur pariatur, dolorem natus odit minima! Voluptatem fuga esse ab ullam cumque debitis reprehenderit quidem non nihil accusamus?",
     ingredients: [

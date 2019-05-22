@@ -22,6 +22,14 @@ for (let i = 0; i < cookies.length; i++) {
   </div>
   `;
 
+  // ============================================
+  // Pop-up Feature
+  // ============================================
+  div.addEventListener("click", (event) => {
+    console.log(cookies[i].name);
+    console.log(cookies[i].ingredients);
+  });
+
   // Append div to .slider-container
   container.append(div);
 }

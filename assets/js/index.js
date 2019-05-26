@@ -26,11 +26,37 @@ for (let i = 0; i < cookies.length; i++) {
   // Pop-up Feature
   // ============================================
   div.addEventListener("click", (event) => {
-    console.log(cookies[i].name);
-    console.log(cookies[i].ingredients);
+    // console.log(cookies[i].name);
+    // console.log(cookies[i].ingredients);
+
+    //Select all elements
+    let modal = document.getElementById("myModal"),
+        span = document.getElementsByClassName("close")[0],
+        h = document.getElementById("modalH"),
+        p = document.getElementById("modalP");
+
+    //Set name and description for modal
+    h.innerHTML = `${cookies[i].name}`;
+    p.innerHTML = `${cookies[i].description}`;
+
+    //Makes div visible
+    modal.style.display = "block";
+
+    //Close modal by clicking X
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    //Close modal by clicking outside the modal window
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
   });
 
-  // Append div to .slider-container
+  // Append div to .slider-container 
   container.append(div);
 }
 

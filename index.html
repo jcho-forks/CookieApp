@@ -17,7 +17,7 @@
   <link rel="stylesheet" media='screen and (min-width: 451px) and (max-width: 1100px)' href="./assets/css/medium.css">
   <link rel="stylesheet" media='screen and (min-width: 0px) and (max-width: 450px)' href="./assets/css/small.css">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 </head>
 
 <body>
@@ -110,7 +110,7 @@
             <img
               src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <div class="contributors-info">
-              <h4>Contributor</h4>
+              <h4>Niklas</h4>
               <p>Some wisdom about cookies.</p>
             </div>
           </div>
@@ -118,7 +118,7 @@
             <img
               src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
             <div class="contributors-info">
-              <h4>Someone</h4>
+              <h4>John Doe</h4>
               <p>Some wisdom about cookies.</p>
             </div>
           </div>
@@ -134,7 +134,7 @@
             suscipit iste rerum illo.</p>
         </div>
         <div class="join-buttons">
-          <button class="go">Let's Go</button>
+          <button id="myBtn" class="go">Let's Go</button>
           <button class="more-info">More Info</button>
         </div>
       </section>
@@ -142,6 +142,19 @@
     </main>
 
   </div>
+  
+  <!-- Cookie Popup Modal - hidden by default -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h4 id="modalH"></h4>
+      <p id="modalP"></p>
+    </div>
+
+  </div>
+
 </body>
 
 <script type="module" src="assets/js/index.js"></script>

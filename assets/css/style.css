@@ -126,6 +126,18 @@ nav .item:hover {
 /* Cookie Section */
 /* ============================================== */
 
+/* Search Bar */
+
+#searchbar {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+}
+
 /* Container */
 
 #cookie {
@@ -238,7 +250,7 @@ nav .item:hover {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content/Box */ 
+/* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */

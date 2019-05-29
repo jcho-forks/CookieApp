@@ -3,6 +3,10 @@ import {
   cookies
 } from "../data/cookies.js";
 
+// ============================================
+// Display Cookies Feature
+// ============================================
+
 // Select div which to append cookies data
 let container = document.querySelector(".slider-container");
 
@@ -17,7 +21,7 @@ for (let i = 0; i < cookies.length; i++) {
   div.innerHTML = `
   <img src=${cookies[i].image}>
   <div class="content">
-    <h4>${cookies[i].name}</h4>
+    <h4 class="cookie-name">${cookies[i].name}</h4>
     <p>${cookies[i].description}</p>
   </div>
   `;
@@ -25,15 +29,13 @@ for (let i = 0; i < cookies.length; i++) {
   // ============================================
   // Pop-up Feature
   // ============================================
-  div.addEventListener("click", (event) => {
-    // console.log(cookies[i].name);
-    // console.log(cookies[i].ingredients);
 
+  div.addEventListener("click", (event) => {
     //Select all elements
     let modal = document.getElementById("myModal"),
-        span = document.getElementsByClassName("close")[0],
-        h = document.getElementById("modalH"),
-        p = document.getElementById("modalP");
+      span = document.getElementsByClassName("close")[0],
+      h = document.getElementById("modalH"),
+      p = document.getElementById("modalP");
 
     //Set name and description for modal
     h.innerHTML = `${cookies[i].name}`;
@@ -43,24 +45,26 @@ for (let i = 0; i < cookies.length; i++) {
     modal.style.display = "block";
 
     //Close modal by clicking X
-    span.onclick = function() {
+    span.onclick = function () {
       modal.style.display = "none";
     }
 
     //Close modal by clicking outside the modal window
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
     }
-
   });
 
-  // Append div to .slider-container 
+  // Append div to .slider-container
   container.append(div);
 }
 
-// More Cookies feature
+// ============================================
+// More / Less Cookies Feature
+// ============================================
+
 let cards = document.querySelectorAll(".card");
 let showMore = document.querySelector(".show-more");
 let showLess = document.querySelector(".show-less");
@@ -105,3 +109,33 @@ function hideCookies(cards) {
     cards[i].classList.remove("display");
   }
 };
+
+// ============================================
+// Search Feature
+// ============================================
+
+let input = document.getElementById("searchbar");
+let cookieName = document.querySelectorAll(".cookie-name");
+
+input.addEventListener("keyup", search);
+
+function search() {
+  // Capture searched term
+  let searchTerm = input.value.toUpperCase();
+
+  if (searchTerm.length === 0) {
+    // Search term empty validation
+    hideCookies(cards);
+    showNumber = 6;
+    showCookies(cards);
+  } else {
+    for (let i = 0; i < cards.length; i++) {
+      // FInd if the searched term exists in the list of cookie names
+      if (cookieName[i].textContent.toUpperCase().indexOf(searchTerm) > -1) {
+        cards[i].classList.add("display");
+      } else {
+        cards[i].classList.remove("display");
+      }
+    }
+  }
+}

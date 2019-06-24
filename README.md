@@ -7,10 +7,11 @@ This is a simple guide on how to `Fork`, `Clone` and `Pull Request` to start con
 #### Table of Contents
 1. [Forking the Repository](#Forking-the-Repository)
 2. [Cloning the Repository](#Cloning-the-Repository)
+3. [Requesting a PR](#Requesting-a-PR)
 
 ### Forking the Repository
 
-1. Navigate to the [CookieApp](https://github.com/CamJulia/CookieApp)
+1. Navigate to the [CookieApp](https://github.com/CamJulia/CookieApp)\n
 2. On the top right corner click the `Fork` button
 3. To continue to `Clone` the repository, navigate to **your forked** version of the CookieApp
 

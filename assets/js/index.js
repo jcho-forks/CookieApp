@@ -3,6 +3,14 @@ import {
   cookies
 } from "../data/cookies.js";
 
+console.log(cookies[0].ingredients);
+
+let test = cookies[0].ingredients
+
+for (let p in test) {
+  console.log(p, test[p]);
+}
+
 // ============================================
 // Display Cookies Feature
 // ============================================

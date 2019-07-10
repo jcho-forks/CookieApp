@@ -3,16 +3,17 @@ export const cookies = [
     name: "Cookie Blue",
     image: "https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
-    ingredients: [
-      "2 cups diced cooked turkey",
-      "2 celery ribs, diced",
-      "1 small onion, diced",
-      "2 hard-cooked eggs, chopped",
-      "3/4 cup mayonnaise",
-      "1/2 teaspoon salt",
-      "1/4 teaspoon pepper",
-      "6 hamburger buns, split"
-    ]
+    ingredients: {
+      "Salted Butter": 1,
+      "Granulated Sugar": 1,
+      "Light Brown Sugar": 1,
+      "Vanilla Extract": 2,
+      "Eggs": 2,
+      "Flour": 3,
+      "Baking Soda": 1,
+      "Baking Powder": 0.5
+
+    }
   },
   {
     name: "Cookie Red",

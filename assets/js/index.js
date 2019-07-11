@@ -3,12 +3,11 @@ import {
   cookies
 } from "../data/cookies.js";
 
-console.log(cookies[0].ingredients);
-
-let test = cookies[0].ingredients
-
-for (let p in test) {
-  console.log(p, test[p]);
+for (let i = 0; i < 3; i++) {
+  for (let p in cookies[i].ingredients) {
+    // food.innerHTML += `<p>${p} : ${cookies[0].ingredients[p]}</p>`
+    console.log(p, cookies[i].ingredients[p]);
+  }
 }
 
 // ============================================

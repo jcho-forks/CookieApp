@@ -19,31 +19,31 @@ export const cookies = [
     name: "Cookie Red",
     image: "https://images.unsplash.com/photo-1530751127259-074b0cdc0469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit.Rem, nemo.",
-    ingredients: [
-      "2 cups diced cooked turkey",
-      "2 celery ribs, diced",
-      "1 small onion, diced",
-      "2 hard-cooked eggs, chopped",
-      "3/4 cup mayonnaise",
-      "1/2 teaspoon salt",
-      "1/4 teaspoon pepper",
-      "6 hamburger buns, split"
-    ]
+    ingredients: {
+      "Salted Butter": 1,
+      "Granulated Sugar": 1,
+      "Light Brown Sugar": 1,
+      "Vanilla Extract": 2,
+      "Eggs": 2,
+      "Flour": 3,
+      "Baking Soda": 1,
+      "Baking Powder": 0.5
+    }
   },
   {
     name: "Cookie Yellow",
     image: "https://images.unsplash.com/photo-1548365328-8c6db3220e4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni corporis eos, voluptas officia hic dicta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur suscipit similique praesentium dolorum veniam. Enim aliquid, ad ullam tempore consequuntur eos pariatur amet porro voluptas iusto molestias nihil omnis.",
-    ingredients: [
-      "2 cups diced cooked turkey",
-      "2 celery ribs, diced",
-      "1 small onion, diced",
-      "2 hard-cooked eggs, chopped",
-      "3/4 cup mayonnaise",
-      "1/2 teaspoon salt",
-      "1/4 teaspoon pepper",
-      "6 hamburger buns, split"
-    ]
+    ingredients: {
+      "Cooked Turkey": 2,
+      "Celery Ribs": 2,
+      "Onions": 1,
+      "Eggs": 2,
+      "Mayonnaise": 2,
+      "Salt": 0.5,
+      "Pepper": 0.25,
+      "Hamburger Buns": 6
+    }
   },
   {
     name: "Cookie Green",
